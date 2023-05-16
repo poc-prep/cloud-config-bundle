@@ -1,0 +1,6 @@
+plugins:
+- id: cloudbees-casc-client
+- id: cloudbees-casc-items-api
+- id: cloudbees-pipeline-policies
+- id: cloudbees-casc-items-commons
+- id: cloudbees-casc-items-controller
