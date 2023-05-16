@@ -1,8 +1,0 @@
-apiVersion: "1"
-id: "wroble1"
-description: "casc"
-version: "1"
-jcasc:
-  - "jenkins.yaml"
-plugins:
-  - "plugins.yaml"
