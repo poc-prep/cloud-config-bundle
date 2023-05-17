@@ -1,0 +1,23 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: folder
+  name: JobsFromPipelineTemplates
+  description: ''
+  displayName: JobsFromPipelineTemplates
+  items:
+  - kind: cloudbeesTemplatedJob
+    catalog: cw-catalog
+    name: useSharedAgent
+    model: cw-catalog/useSharedAgent
+    attributes:
+    - value: useSharedAgent
+      key: name
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      allowedTypes:
+      - cw-catalog/useSharedAgent
+      - cw-catalog/4stage
+      filter: true
