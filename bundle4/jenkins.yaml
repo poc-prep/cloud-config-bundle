@@ -21,3 +21,10 @@ globalCloudBeesPipelineTemplateCatalog:
             strategyId: 2
             trust: "gitHubTrustPermissions"
     updateInterval: "1d"
+unclassified:
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: true
+    gracePeriod: 36000
