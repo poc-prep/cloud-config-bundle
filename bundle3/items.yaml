@@ -9,6 +9,13 @@ items:
   items:
   - kind: cloudbeesTemplatedJob
     catalog: cw-catalog
+    name: 4stage
+    model: cw-catalog/4stage
+    attributes:
+    - value: 4stage
+      key: name
+  - kind: cloudbeesTemplatedJob
+    catalog: cw-catalog
     name: useSharedAgent
     model: cw-catalog/useSharedAgent
     attributes:
