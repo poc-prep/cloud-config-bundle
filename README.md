@@ -4,6 +4,6 @@
 
 2 adds pipline template catalog
 
-3 builds in items 
+3 builds in items (folder, jobs from pipeline template catalog)
 
 4 hibernation
