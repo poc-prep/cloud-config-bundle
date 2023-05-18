@@ -6,5 +6,5 @@ jcasc:
   - "jenkins.yaml"
 plugins:
   - "plugins.yaml"
-  items:
+items:
   - "items.yaml"
