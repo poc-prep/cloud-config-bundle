@@ -14,13 +14,6 @@ items:
     attributes:
     - value: 4stage
       key: name
-  - kind: cloudbeesTemplatedJob
-    catalog: cw-catalog
-    name: useSharedAgent
-    model: cw-catalog/useSharedAgent
-    attributes:
-    - value: useSharedAgent
-      key: name
   properties:
   - envVars: {}
   - itemRestrictions:
