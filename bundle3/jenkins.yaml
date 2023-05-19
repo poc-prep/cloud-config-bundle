@@ -21,3 +21,23 @@ globalCloudBeesPipelineTemplateCatalog:
             strategyId: 2
             trust: "gitHubTrustPermissions"
     updateInterval: "1d"
+kube:
+  podTemplatesConfiguration:
+    templates:
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "node:17-alpine"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "nodejs"
+        workingDir: "/home/jenkins/agent"
+      id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
+      label: "nodejs-app"
+      name: "controllerAgent"
+      nodeUsageMode: NORMAL
+      yamlMergeStrategy: "override"
