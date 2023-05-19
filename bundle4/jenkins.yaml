@@ -38,7 +38,7 @@ kube:
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "nodejs-app"
-      name: "controllerAgent"
+      name: "ephemeralAgent"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"  
 unclassified:
