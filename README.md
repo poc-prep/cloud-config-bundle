@@ -7,3 +7,5 @@
 3 builds in items (folder, jobs from pipeline template catalog)
 
 4 hibernation
+
+5 non-cap plugins
