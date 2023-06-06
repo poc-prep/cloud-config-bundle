@@ -1,5 +1,6 @@
 plugins:
 - id: ace-editor
+- id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
 - id: authentication-tokens
 - id: aws-credentials
@@ -9,6 +10,7 @@ plugins:
 - id: bootstrap5-api
 - id: bouncycastle-api
 - id: branch-api
+- id: build-blocker-plugin
 - id: caffeine-api
 - id: checks-api
 - id: cloudbees-administrative-monitors
@@ -49,6 +51,7 @@ plugins:
 - id: ec2
 - id: echarts-api
 - id: email-ext
+- id: emailext-template
 - id: font-awesome-api
 - id: git
 - id: git-client
@@ -67,6 +70,8 @@ plugins:
 - id: javax-mail-api
 - id: jaxb
 - id: jdk-tool
+- id: jersey2-api
+- id: jira
 - id: jjwt-api
 - id: jquery3-api
 - id: junit
@@ -75,7 +80,9 @@ plugins:
 - id: kubernetes-client-api
 - id: kubernetes-credentials
 - id: ldap
+- id: log-parser
 - id: mailer
+- id: managed-master-hibernation
 - id: mapdb-api
 - id: matrix-project
 - id: metrics
@@ -107,17 +114,23 @@ plugins:
 - id: pipeline-utility-steps
 - id: plain-credentials
 - id: plugin-util-api
+- id: powershell
+- id: resource-disposer
 - id: scm-api
 - id: script-security
 - id: snakeyaml-api
+- id: sonar
 - id: ssh-credentials
 - id: sshd
 - id: structs
 - id: support-core
+- id: throttle-concurrents
+- id: timestamper
 - id: token-macro
 - id: trilead-api
 - id: unique-id
 - id: user-activity-monitoring
+- id: validating-string-parameter
 - id: variant
 - id: workflow-aggregator
 - id: workflow-api
@@ -130,3 +143,4 @@ plugins:
 - id: workflow-scm-step
 - id: workflow-step-api
 - id: workflow-support
+- id: ws-cleanup
