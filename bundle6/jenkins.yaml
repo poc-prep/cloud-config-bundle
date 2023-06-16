@@ -38,7 +38,7 @@ kube:
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "nodejs-app"
-      name: "ephemeralAgent1"
+      name: "ephemeralAgentNodeJS"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"
     - containers:
@@ -55,7 +55,24 @@ kube:
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "maven"
-      name: "ephemeralAgent2"
+      name: "ephemeralAgentMaven"
+      nodeUsageMode: NORMAL
+      yamlMergeStrategy: "override"
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "jnlp-agent-python3-jdk11"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "python"
+        workingDir: "/home/jenkins/agent"
+      id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
+      label: "python"
+      name: "ephemeralAgentPython"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"
 unclassified:
