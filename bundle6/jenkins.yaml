@@ -38,7 +38,7 @@ kube:
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "nodejs-app"
-      name: "ephemeralAgent"
+      name: "ephemeralAgent1"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"
     - containers:
@@ -55,7 +55,7 @@ kube:
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "maven"
-      name: "ephemeralAgent"
+      name: "ephemeralAgent2"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"
 unclassified:
