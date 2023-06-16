@@ -1,0 +1,50 @@
+jenkins:
+  systemMessage: "Welcome to CloudBees CI - bundle 5"
+  clouds:
+  - "operationsCenterAgentProvisioningService"
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+  - branchOrTag: "main"
+    scm:
+      github:
+        configuredByUrl: true
+        id: "3a403cac-c19f-41fe-9433-b30ead9bc91b"
+        repoOwner: "poc-prep"
+        repository: "poc-pipeline-template-catalog"
+        repositoryUrl: "https://github.com/poc-prep/poc-pipeline-template-catalog.git"
+        traits:
+        - gitHubBranchDiscovery:
+            strategyId: 1
+        - gitHubPullRequestDiscovery:
+            strategyId: 2
+        - gitHubForkDiscovery:
+            strategyId: 2
+            trust: "gitHubTrustPermissions"
+    updateInterval: "1d"
+kube:
+  podTemplatesConfiguration:
+    templates:
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "node:17-alpine"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "nodejs"
+        workingDir: "/home/jenkins/agent"
+      id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
+      label: "nodejs-app"
+      name: "ephemeralAgent"
+      nodeUsageMode: NORMAL
+      yamlMergeStrategy: "override"  
+unclassified:
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: true
+    gracePeriod: 1800
