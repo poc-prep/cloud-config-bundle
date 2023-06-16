@@ -61,7 +61,7 @@ kube:
     - containers:
       - args: "9999999"
         command: "sleep"
-        image: "python"
+        image: "python:3.11-alpine"
         livenessProbe:
           failureThreshold: 0
           initialDelaySeconds: 0
