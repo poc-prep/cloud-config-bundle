@@ -61,7 +61,7 @@ kube:
     - containers:
       - args: "9999999"
         command: "sleep"
-        image: "jnlp-agent-python3-jdk11"
+        image: "python"
         livenessProbe:
           failureThreshold: 0
           initialDelaySeconds: 0
