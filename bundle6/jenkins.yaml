@@ -85,7 +85,7 @@ kube:
           periodSeconds: 0
           successThreshold: 0
           timeoutSeconds: 0
-        name: "python"
+        name: "gradle"
         workingDir: "/home/jenkins/agent"
       id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
       label: "gradle"
