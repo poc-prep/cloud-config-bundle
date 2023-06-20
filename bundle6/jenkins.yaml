@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Welcome to CloudBees CI - bundle 6a"
+  systemMessage: "Welcome to CloudBees CI - bundle 6b"
   clouds:
   - "operationsCenterAgentProvisioningService"
 globalCloudBeesPipelineTemplateCatalog:
