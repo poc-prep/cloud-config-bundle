@@ -92,6 +92,23 @@ kube:
       name: "ephemeralAgentGradle"
       nodeUsageMode: NORMAL
       yamlMergeStrategy: "override"
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "mcr.microsoft.com/dotnet/sdk:7.0"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "dotnet"
+        workingDir: "/home/jenkins/agent"
+      id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
+      label: "dotnet"
+      name: "ephemeralAgentDotNet"
+      nodeUsageMode: NORMAL
+      yamlMergeStrategy: "override"
 unclassified:
   hibernationConfiguration:
     activities:
