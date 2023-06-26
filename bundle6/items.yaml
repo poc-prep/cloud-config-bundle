@@ -21,4 +21,5 @@ items:
       - cw-catalog/useSharedAgent
       - cw-catalog/4stage
       - cw-catalog/useDifferentAgents
+      - cw-catalog/useWindowsAgents
       filter: true
