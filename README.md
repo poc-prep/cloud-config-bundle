@@ -6,8 +6,7 @@
 
 3 builds in items (folder, jobs from pipeline template catalog, agent pod template)
 
-4 hibernation
+4 hibernation & extra agent pod templates
 
 5 non-cap plugins
 
-6 extra agent pod templates
