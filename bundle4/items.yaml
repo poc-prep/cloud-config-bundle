@@ -20,4 +20,6 @@ items:
       allowedTypes:
       - cw-catalog/useSharedAgent
       - cw-catalog/4stage
+      - cw-catalog/useDifferentAgents
+      - cw-catalog/useWindowsAgent
       filter: true
