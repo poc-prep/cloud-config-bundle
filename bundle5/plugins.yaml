@@ -111,7 +111,6 @@ plugins:
 - id: pipeline-stage-step
 - id: pipeline-stage-tags-metadata
 - id: pipeline-stage-view
-- id: pipeline-utility-steps
 - id: plain-credentials
 - id: plugin-util-api
 - id: powershell
@@ -124,7 +123,6 @@ plugins:
 - id: sshd
 - id: structs
 - id: support-core
-- id: throttle-concurrents
 - id: timestamper
 - id: token-macro
 - id: trilead-api
