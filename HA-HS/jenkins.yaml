@@ -1,4 +1,24 @@
 jenkins:
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+  - branchOrTag: "main"
+    scm:
+      github:
+        configuredByUrl: true
+        credentialsId: "43640dc0-47df-4c21-af27-555604649f29"
+        id: "93e5475c-4e78-4a63-a3e6-4a481838caed"
+        repoOwner: "poc-prep"
+        repository: "poc-pipeline-template-catalog"
+        repositoryUrl: "https://github.com/poc-prep/poc-pipeline-template-catalog.git"
+        traits:
+        - gitHubBranchDiscovery:
+            strategyId: 1
+        - gitHubPullRequestDiscovery:
+            strategyId: 2
+        - gitHubForkDiscovery:
+            strategyId: 2
+            trust: "gitHubTrustPermissions"
+    updateInterval: "1d"
   agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
