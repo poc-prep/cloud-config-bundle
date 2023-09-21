@@ -1,0 +1,9 @@
+type: plugin-catalog
+version: '1'
+name: load50
+displayName: Load 50
+configurations:
+- description: Exported plugins
+  includePlugins:
+    mock-load-builder:
+      version: 72.va_d24249b_1400
