@@ -1752,11 +1752,3 @@ items:
   - envVars: {}
   - itemRestrictions:
       filter: false
-- kind: cloudbeesTemplatedJob
-  catalog: cw-catalog
-  name: startHAjobs
-  model: cw-catalog/kickHAload
-  attributes:
-  - type: string
-    value: startHAjobs
-    key: name
