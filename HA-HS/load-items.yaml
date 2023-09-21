@@ -1,0 +1,1754 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: folder
+  name: '01'
+  description: ''
+  displayName: '01'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '02'
+  description: ''
+  displayName: '02'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '03'
+  description: ''
+  displayName: '03'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '04'
+  description: ''
+  displayName: '04'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '05'
+  description: ''
+  displayName: '05'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '06'
+  description: ''
+  displayName: '06'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '07'
+  description: ''
+  displayName: '07'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '08'
+  description: ''
+  displayName: '08'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '09'
+  description: ''
+  displayName: '09'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '10'
+  description: ''
+  displayName: '10'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '11'
+  description: ''
+  displayName: '11'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '12'
+  description: ''
+  displayName: '12'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '13'
+  description: ''
+  displayName: '13'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '14'
+  description: ''
+  displayName: '14'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '15'
+  description: ''
+  displayName: '15'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '16'
+  description: ''
+  displayName: '16'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '17'
+  description: ''
+  displayName: '17'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '18'
+  description: ''
+  displayName: '18'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '19'
+  description: ''
+  displayName: '19'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '20'
+  description: ''
+  displayName: '20'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '21'
+  description: ''
+  displayName: '21'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '22'
+  description: ''
+  displayName: '22'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '23'
+  description: ''
+  displayName: '23'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '24'
+  description: ''
+  displayName: '24'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '25'
+  description: ''
+  displayName: '25'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '26'
+  description: ''
+  displayName: '26'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '27'
+  description: ''
+  displayName: '27'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '28'
+  description: ''
+  displayName: '28'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '29'
+  description: ''
+  displayName: '29'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '30'
+  description: ''
+  displayName: '30'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '31'
+  description: ''
+  displayName: '31'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '32'
+  description: ''
+  displayName: '32'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '33'
+  description: ''
+  displayName: '33'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '34'
+  description: ''
+  displayName: '34'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '35'
+  description: ''
+  displayName: '35'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '36'
+  description: ''
+  displayName: '36'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '37'
+  description: ''
+  displayName: '37'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '38'
+  description: ''
+  displayName: '38'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '39'
+  description: ''
+  displayName: '39'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '40'
+  description: ''
+  displayName: '40'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '41'
+  description: ''
+  displayName: '41'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '42'
+  description: ''
+  displayName: '42'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '43'
+  description: ''
+  displayName: '43'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '44'
+  description: ''
+  displayName: '44'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '45'
+  description: ''
+  displayName: '45'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '46'
+  description: ''
+  displayName: '46'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '47'
+  description: ''
+  displayName: '47'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '48'
+  description: ''
+  displayName: '48'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '49'
+  description: ''
+  displayName: '49'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
+- kind: folder
+  name: '50'
+  description: ''
+  displayName: '50'
+  items:
+  - kind: multibranch
+    name: load-pipeline
+    description: ''
+    displayName: load-pipeline
+    orphanedItemStrategy:
+      defaultOrphanedItemStrategy:
+        pruneDeadBranches: true
+        daysToKeep: -1
+        numToKeep: -1
+        abortBuilds: false
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: load.Jenkinsfile
+    properties:
+    - envVars: {}
+    sourcesList:
+    - branchSource:
+        source:
+          git:
+            traits:
+            - gitBranchDiscovery: {}
+            credentialsId: github-token
+            id: ab965bc9-fd94-463e-8b83-ede9a40a50b6
+            remote: https://github.com/sbatchelder-cb/load-repo.git
+        strategy:
+          allBranchesSame: {}
+  properties:
+  - envVars: {}
+  - itemRestrictions:
+      filter: false
