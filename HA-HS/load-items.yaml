@@ -10,6 +10,14 @@ items:
   - type: string
     value: startHAjobs
     key: name
+- kind: cloudbeesTemplatedJob
+  catalog: cw-catalog
+  name: startHSjobs
+  model: cw-catalog/4stage
+  attributes:
+  - type: string
+    value: startHSjobs
+    key: name
 - kind: folder
   name: '01'
   description: ''
