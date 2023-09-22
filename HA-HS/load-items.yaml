@@ -1,15 +1,6 @@
 removeStrategy:
   rbac: SYNC
   items: NONE
-items:
-- kind: cloudbeesTemplatedJob
-  catalog: cw-catalog
-  name: startHSjobs
-  model: cw-catalog/kickHAload
-  attributes:
-  - type: string
-    value: startHSjobs
-    key: name
 - kind: folder
   name: '01'
   description: ''
