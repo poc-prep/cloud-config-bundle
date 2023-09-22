@@ -4,16 +4,8 @@ removeStrategy:
 items:
 - kind: cloudbeesTemplatedJob
   catalog: cw-catalog
-  name: startHAjobs
-  model: cw-catalog/kickHAload
-  attributes:
-  - type: string
-    value: startHAjobs
-    key: name
-- kind: cloudbeesTemplatedJob
-  catalog: cw-catalog
   name: startHSjobs
-  model: cw-catalog/4stage
+  model: cw-catalog/kickHAload
   attributes:
   - type: string
     value: startHSjobs
