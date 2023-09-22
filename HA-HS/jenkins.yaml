@@ -1,5 +1,4 @@
 jenkins:
-  systemMessage: "Welcome to CloudBees CI - with High Availability and Horizontal Scalability"
   agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
