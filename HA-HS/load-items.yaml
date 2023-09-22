@@ -1,6 +1,7 @@
 removeStrategy:
   rbac: SYNC
   items: NONE
+items:
 - kind: folder
   name: '01'
   description: ''
