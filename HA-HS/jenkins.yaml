@@ -1,5 +1,6 @@
 jenkins:
   systemMessage: "Welcome to CloudBees CI - HA/HS bundle"
+  numExecutors: 5
   agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
