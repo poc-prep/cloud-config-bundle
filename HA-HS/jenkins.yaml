@@ -49,9 +49,27 @@ beekeeper:
 notificationConfiguration:
   enabled: true
   router: "operationsCenter"
+kube:
+  podTemplatesConfiguration:
+    templates:
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "nodejs-app"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        workingDir: "/home/jenkins/agent"
+      id: "d7a22116-477d-420d-bfa3-dce1c83513d4"
+      label: "nodejs-app"
+      name: "nodejs"
+      yamlMergeStrategy: "override"
 highAvailability:
   highAvailabilityConfiguration:
-    developerMode: false
+    developerMode: true
 support:
   automatedBundleConfiguration:
     componentIds:
