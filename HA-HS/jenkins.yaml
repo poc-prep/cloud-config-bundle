@@ -67,6 +67,23 @@ kube:
       label: "nodejs-app"
       name: "nodejs"
       yamlMergeStrategy: "override"
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "maven:3-openjdk-8"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "maven"
+        workingDir: "/home/jenkins/agent"
+      id: "ab59daee-3e1b-417b-b9ce-67776ddac458"
+      label: "maven"
+      name: "ephemeralAgentMaven"
+      nodeUsageMode: NORMAL
+      yamlMergeStrategy: "override"
 highAvailability:
   highAvailabilityConfiguration:
     developerMode: true
