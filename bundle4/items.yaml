@@ -21,13 +21,13 @@ items:
     attributes:
     - value: useDifferentAgents
       key: name
- - kind: cloudbeesTemplatedJob
-   catalog: cw-catalog
-   name: useSharedAgent
-   model: cw-catalog/useSharedAgent
-   attributes:
-   - value: useSharedAgent
-    key: name
+  - kind: cloudbeesTemplatedJob
+    catalog: cw-catalog
+    name: useSharedAgent
+    model: cw-catalog/useSharedAgent
+    attributes:
+    - value: useSharedAgent
+      key: name
   properties:
   - envVars: {}
   - itemRestrictions:
