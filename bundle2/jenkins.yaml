@@ -5,6 +5,7 @@ globalCloudBeesPipelineTemplateCatalog:
   - branchOrTag: "main"
     scm:
       git:
+        credentialsId: "github"
         id: "3a403cac-c19f-41fe-9433-b30ead9bc91b"
         remote: "https://github.com/poc-prep/poc-pipeline-template-catalog.git"
         traits:
