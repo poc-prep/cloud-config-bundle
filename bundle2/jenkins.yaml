@@ -4,18 +4,10 @@ globalCloudBeesPipelineTemplateCatalog:
   catalogs:
   - branchOrTag: "main"
     scm:
-      github:
-        configuredByUrl: true
+      git:
+        credentialsId: "github"
         id: "3a403cac-c19f-41fe-9433-b30ead9bc91b"
-        repoOwner: "poc-prep"
-        repository: "poc-pipeline-template-catalog"
-        repositoryUrl: "https://github.com/poc-prep/poc-pipeline-template-catalog.git"
+        remote: "https://github.com/poc-prep/poc-pipeline-template-catalog.git"
         traits:
-        - gitHubBranchDiscovery:
-            strategyId: 1
-        - gitHubPullRequestDiscovery:
-            strategyId: 2
-        - gitHubForkDiscovery:
-            strategyId: 2
-            trust: "gitHubTrustPermissions"
+        - "gitBranchDiscovery"
     updateInterval: "1d"
