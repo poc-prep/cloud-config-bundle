@@ -1,5 +1,6 @@
 plugins:
 - id: ace-editor
+- id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
 - id: authentication-tokens
 - id: aws-credentials
@@ -27,6 +28,7 @@ plugins:
 - id: cloudbees-license
 - id: cloudbees-monitoring
 - id: cloudbees-nodes-plus
+- id: cloudbees-pipeline-explorer
 - id: cloudbees-platform-common
 - id: cloudbees-platform-data
 - id: cloudbees-plugin-usage
@@ -41,6 +43,7 @@ plugins:
 - id: command-launcher
 - id: commons-lang3-api
 - id: commons-text-api
+- id: configuration-as-code
 - id: credentials
 - id: credentials-binding
 - id: display-url-api
@@ -54,6 +57,7 @@ plugins:
 - id: github-api
 - id: github-branch-source
 - id: gradle
+- id: gson-api
 - id: handy-uri-templates-2-api
 - id: infradna-backup
 - id: instance-identity
@@ -66,15 +70,18 @@ plugins:
 - id: jaxb
 - id: jdk-tool
 - id: jjwt-api
+- id: joda-time-api
 - id: jquery3-api
+- id: json-api
+- id: json-path-api
 - id: junit
 - id: kube-agent-management
 - id: kubernetes
 - id: kubernetes-client-api
 - id: kubernetes-credentials
 - id: ldap
-- id: managed-master-hibernation
 - id: mailer
+- id: managed-master-hibernation
 - id: mapdb-api
 - id: matrix-project
 - id: metrics
@@ -105,6 +112,7 @@ plugins:
 - id: pipeline-stage-view
 - id: plain-credentials
 - id: plugin-util-api
+- id: prism-api
 - id: scm-api
 - id: script-security
 - id: snakeyaml-api
