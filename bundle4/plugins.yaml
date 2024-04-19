@@ -2,6 +2,7 @@ plugins:
 - id: ace-editor
 - id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
+- id: asm-api
 - id: authentication-tokens
 - id: aws-credentials
 - id: aws-java-sdk-ec2
