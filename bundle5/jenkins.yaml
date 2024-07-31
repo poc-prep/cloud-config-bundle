@@ -36,7 +36,7 @@ kube:
     - containers:
       - args: "9999999"
         command: "sleep"
-        image: "maven:3-openjdk-8"
+        image: "maven:3.9.0"
         livenessProbe:
           failureThreshold: 0
           initialDelaySeconds: 0
