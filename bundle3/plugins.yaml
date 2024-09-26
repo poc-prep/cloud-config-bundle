@@ -7,6 +7,7 @@ plugins:
 - id: aws-credentials
 - id: aws-java-sdk-ec2
 - id: aws-java-sdk-minimal
+- id: blueocean-commons
 - id: bootstrap5-api
 - id: bouncycastle-api
 - id: branch-api
@@ -15,6 +16,7 @@ plugins:
 - id: cloudbees-administrative-monitors
 - id: cloudbees-analytics
 - id: cloudbees-assurance
+- id: cloudbees-blueocean-default-theme
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
