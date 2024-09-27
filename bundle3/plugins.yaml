@@ -1,5 +1,4 @@
 plugins:
-- id: ace-editor
 - id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
 - id: asm-api
@@ -7,7 +6,6 @@ plugins:
 - id: aws-credentials
 - id: aws-java-sdk-ec2
 - id: aws-java-sdk-minimal
-- id: blueocean-commons
 - id: bootstrap5-api
 - id: bouncycastle-api
 - id: branch-api
@@ -16,7 +14,6 @@ plugins:
 - id: cloudbees-administrative-monitors
 - id: cloudbees-analytics
 - id: cloudbees-assurance
-- id: cloudbees-blueocean-default-theme
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
@@ -42,13 +39,14 @@ plugins:
 - id: cloudbees-unified-ui
 - id: cloudbees-view-creation-filter
 - id: cloudbees-workflow-template
-- id: cloudbees-workflow-ui
 - id: command-launcher
 - id: commons-lang3-api
 - id: commons-text-api
 - id: configuration-as-code
 - id: credentials
 - id: credentials-binding
+- id: declarative-pipeline-migration-assistant
+- id: declarative-pipeline-migration-assistant-api
 - id: display-url-api
 - id: durable-task
 - id: echarts-api
@@ -102,17 +100,14 @@ plugins:
 - id: operations-center-cloud
 - id: operations-center-context
 - id: pipeline-build-step
-- id: pipeline-graph-analysis
 - id: pipeline-groovy-lib
 - id: pipeline-input-step
 - id: pipeline-milestone-step
 - id: pipeline-model-api
 - id: pipeline-model-definition
 - id: pipeline-model-extensions
-- id: pipeline-rest-api
 - id: pipeline-stage-step
 - id: pipeline-stage-tags-metadata
-- id: pipeline-stage-view
 - id: plain-credentials
 - id: plugin-util-api
 - id: prism-api
@@ -120,7 +115,6 @@ plugins:
 - id: script-security
 - id: snakeyaml-api
 - id: ssh-credentials
-- id: sshd
 - id: structs
 - id: support-core
 - id: token-macro
