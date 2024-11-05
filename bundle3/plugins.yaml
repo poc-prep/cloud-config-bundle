@@ -1,9 +1,11 @@
 plugins:
 - id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
+- id: artifact-manager-s3
 - id: asm-api
 - id: authentication-tokens
 - id: aws-credentials
+- id: aws-global-configuration
 - id: aws-java-sdk-ec2
 - id: aws-java-sdk-minimal
 - id: bootstrap5-api
@@ -14,6 +16,7 @@ plugins:
 - id: cloudbees-administrative-monitors
 - id: cloudbees-analytics
 - id: cloudbees-assurance
+- id: cloudbees-cache-step
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
@@ -32,8 +35,8 @@ plugins:
 - id: cloudbees-platform-common
 - id: cloudbees-platform-data
 - id: cloudbees-plugin-usage
-- id: cloudbees-ssh-slaves
 - id: cloudbees-s3-cache
+- id: cloudbees-ssh-slaves
 - id: cloudbees-support
 - id: cloudbees-template
 - id: cloudbees-uc-data-api
