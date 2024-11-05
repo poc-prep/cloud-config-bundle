@@ -33,6 +33,7 @@ plugins:
 - id: cloudbees-platform-data
 - id: cloudbees-plugin-usage
 - id: cloudbees-ssh-slaves
+- id: cloudbees-s3-cache
 - id: cloudbees-support
 - id: cloudbees-template
 - id: cloudbees-uc-data-api
