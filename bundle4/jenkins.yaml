@@ -70,7 +70,7 @@ kube:
     - containers:
       - args: "9999999"
         command: "sleep"
-        image: "gradle:8-jdk17-alpine"
+        image: "gradle:8.10-jdk23-alpine"
         livenessProbe:
           failureThreshold: 0
           initialDelaySeconds: 0
