@@ -1,15 +1,14 @@
 plugins:
-- id: ace-editor
 - id: antisamy-markup-formatter
 - id: apache-httpcomponents-client-4-api
-- id: artifact-manager-s3
 - id: asm-api
 - id: authentication-tokens
 - id: aws-credentials
-- id: aws-global-configuration
 - id: aws-java-sdk-ec2
 - id: aws-java-sdk-minimal
-- id: blueocean-commons
+- id: aws-java-sdk2-core
+- id: aws-java-sdk2-ec2
+- id: aws-java-sdk2-s3
 - id: bootstrap5-api
 - id: bouncycastle-api
 - id: branch-api
@@ -18,8 +17,6 @@ plugins:
 - id: cloudbees-administrative-monitors
 - id: cloudbees-analytics
 - id: cloudbees-assurance
-- id: cloudbees-blueocean-default-theme
-- id: cloudbees-cache-step
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
@@ -36,9 +33,7 @@ plugins:
 - id: cloudbees-pipeline-explorer
 - id: cloudbees-platform-common
 - id: cloudbees-platform-data
-- id: cloudbees-platform-insights
 - id: cloudbees-plugin-usage
-- id: cloudbees-s3-cache
 - id: cloudbees-ssh-slaves
 - id: cloudbees-support
 - id: cloudbees-template
@@ -46,8 +41,8 @@ plugins:
 - id: cloudbees-unified-ui
 - id: cloudbees-view-creation-filter
 - id: cloudbees-workflow-template
-- id: cloudbees-workflow-ui
 - id: command-launcher
+- id: commons-compress-api
 - id: commons-lang3-api
 - id: commons-text-api
 - id: configuration-as-code
@@ -56,6 +51,7 @@ plugins:
 - id: display-url-api
 - id: durable-task
 - id: echarts-api
+- id: eddsa-api
 - id: email-ext
 - id: font-awesome-api
 - id: git
@@ -88,7 +84,6 @@ plugins:
 - id: kubernetes-credentials
 - id: ldap
 - id: mailer
-- id: managed-master-hibernation
 - id: mapdb-api
 - id: matrix-project
 - id: metrics
@@ -98,6 +93,7 @@ plugins:
 - id: mina-sshd-api-sftp
 - id: nectar-license
 - id: nectar-rbac
+- id: netty-api
 - id: node-iterator-api
 - id: oauth-credentials
 - id: okhttp-api
@@ -106,17 +102,14 @@ plugins:
 - id: operations-center-cloud
 - id: operations-center-context
 - id: pipeline-build-step
-- id: pipeline-graph-analysis
 - id: pipeline-groovy-lib
 - id: pipeline-input-step
 - id: pipeline-milestone-step
 - id: pipeline-model-api
 - id: pipeline-model-definition
 - id: pipeline-model-extensions
-- id: pipeline-rest-api
 - id: pipeline-stage-step
 - id: pipeline-stage-tags-metadata
-- id: pipeline-stage-view
 - id: plain-credentials
 - id: plugin-util-api
 - id: prism-api
@@ -124,7 +117,6 @@ plugins:
 - id: script-security
 - id: snakeyaml-api
 - id: ssh-credentials
-- id: sshd
 - id: structs
 - id: support-core
 - id: token-macro
